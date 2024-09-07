@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@latest/turf.min.js"></script>
+    <title>Olimpíadas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Comida di Buteco</h1>
+    </header>
+    <main>
+        <section>
+            <p>Digite o ano que deseja ver a lista dos ganhadores do Comida di Buteco</p>
+      
+        
+            <input type="number" id="ano" placeholder="Digite seu endereço atual">
+            <button onclick="buscarBotecos()"> Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa">
+            <div class="resultado">
+                <ul id="resultados"></ul>
+                
+            </div>   
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Comida di Boteco</p>
+        <p>Entre em contato pelo email: feliperm103@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
